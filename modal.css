@@ -1,0 +1,31 @@
+.contenedor{
+    width: 300px;
+    height: 300px;
+    border: solid 1px;
+    margin: 100px auto;
+    background-color: rgba(104, 100, 100, 0.533);
+    border-radius: 10px;
+}
+
+.contenido{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#texto1{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#boton1{
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgba(255, 251, 251, 0.893);
+    color: rgba(27, 196, 128, 0.63);
+    font-weight: bold;
+}
+body{
+  background: url(https://i.pinimg.com/originals/cd/89/48/cd8948d6efd0281c8e0841556c6c9553.jpg)no-repeat center center fixed ;
+}

@@ -1,0 +1,227 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+#nav{
+  position: relative;
+  bottom: 6rem;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.854);
+    color: white;
+    border-radius: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+color: rgb(26, 163, 231);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 10px;
+}
+.img1{
+position: relative;bottom: 2rem;left: 4rem;
+  margin: 4rem;
+}
+#img2{
+  height: 300px;
+  width: 300px;
+}
+.container{
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+}
+.cont_parrafo{
+  text-align: left;
+  text-shadow:rgb(148, 142, 142) 1px 1px 1px;
+  height: 750px;
+  width: 60%;
+  position: relative;left: 2rem;
+  font-size: 20px;
+  color: rgb(57, 53, 53);
+  font-weight: 900;
+ flex-wrap: wrap;
+ margin: 20px;
+}
+#pI{
+  font-size: 24px;
+}
+#Nosotros{
+  text-align: center;
+  position: relative;bottom: 2rem;
+}
+.wrapper{
+  display: flex;
+  width: 100%;
+  position: relative;left: 2rem;
+}
+
+.cards{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-1{
+    width: 16rem;
+    height: 30rem;
+    margin-left: 25px;
+}
+.card-2{
+  width: 16rem;
+  height: 30rem;
+  margin-left: 25px;
+}
+.card-3{
+  width: 16rem;
+  height: 30rem;
+  margin-left: 25px;
+}
+
+.card-4{
+  width: 16rem;
+  height: 30rem;
+  margin-left: 25px;
+}
+
+
+
+  a{
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+  .desarollador{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  #pF{
+    position: relative;top: 4rem;
+  }
+  .modal{
+    background-color: rgba(0, 0, 0, 0.52);
+    height: 1120px;
+    position: absolute;
+    top: -1220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .sub_modal{
+    background-color: white;
+    color: black;
+    height: 380px;
+    width: 370px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+
+  }
+
+
+.botonesModal{
+  margin: 1rem ;
+}
+.aceptar{
+  position: relative;right: 2rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(19, 102, 226);
+  border: 0px;
+}
+.aceptar:hover{
+  background-color:white ;
+  border: 0.6px solid rgb(19, 102, 226);
+  pointer-events: unset;
+  transition: 1s;
+}
+.cancelar:hover{
+  background-color:white ;
+  border: 0.6px solid  rgb(226, 33, 19);
+  pointer-events: unset;
+  transition: 1s;
+}
+.cancelar{
+  position: relative;left: 2rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(226, 33, 19);
+  border: 0px;
+}
+  body{
+    background-image: url(https://redragon.es/content/uploads/2021/04/WALLPAPER-6-3.jpg);
+    background-repeat: no-repeat;
+    font-weight: 700;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 100px 10px;
+}
+.boton{
+  position: relative;right: 8rem;top: 12rem;
+}
+#boton1{
+  height: 3rem;
+  width: 8rem;
+  font-weight: 700;
+  background-color: rgba(138, 29, 17, 0.949);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+
+}
+#boton1:hover{
+  background-color:white ;
+  border: 0.6px solid  rgb(226, 33, 19);
+  pointer-events: unset;
+  transition: 1s;
+  color: black;
+}
+#seleccionarOpcion{
+  height: 32px;
+  width: 210px;
+  background-color: rgba(138, 29, 17, 0.949);
+  border-radius: 10%;
+  position: relative;top: 2rem;left: 3rem;
+}
+
+@media (min-width: 1000px) {
+  nav{
+      width: 100%;
+  }
+}
