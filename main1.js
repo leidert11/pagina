@@ -24,5 +24,5 @@ cancelar.addEventListener('click',()=>{
 aceptar.addEventListener('click',(e)=>{
     e.preventDefault()
     setTimeout(() => {
-        location='./modal.html'})
+        location='./index2.html'})
 })        
