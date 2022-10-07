@@ -10,7 +10,7 @@ boton.addEventListener('click', e => {
     }
 
     if (usarname === 'carlitos' && password === 'carlitos123') {
-        alert('Correctas')
+        alert('BIENVENIDO')
         setTimeout(() => {
             location = './pagina.html' //Cuando se colocan bien los datos, se va a redirigir a la pagina pagina.html
         })
